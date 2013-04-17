@@ -1,12 +1,16 @@
 # jsRazor: Cutting-Enge Client Templates
 
-Stupidly simple and unbeatably powerful client-side templating solution. Based on central idea that **every possible rendering output can be achieved by only TWO functional primitives**. These primitives are:
+Stupidly simple and unbeatably powerful client-side templating solution. Based on idea that **every possible rendering output can be achieved by only TWO functional primitives**. These primitives are:
 - **repeat** - repeats geheric fragment
 - **toggle** - shows or hides generic fragment
+
 Combine these two in any configuration and get your desired output - that's all. jsRazor simplifies client-side templating to the maximum possible level.
 
-- Tiny, about 100 lines of code in total, trivial and intuitive
+Why choose jsRazor:
+- A way more flexible than any MVC, compiled template, or DOM solution
+- Tiny, 100 lines of code in total, trivial and intuitive usage
 - Super fast, string template processing, no DOM, no JS compilation
+- Separation of HTML template from JavaScript code
 - Absolutely generic output, no limitation at all
 
 ## Usage
@@ -19,7 +23,7 @@ All you need to know about jsRazor is here: [http://www.makeitsoft.com/jsrazor-p
 
 ## Example
 
-You have some JSON data:
+You have some JSON data containing theme colors:
 		
 	var data_Themes =
 	[
@@ -29,7 +33,7 @@ You have some JSON data:
 	  { name: "Blue Volcano Theme", colors: ["#5077FF", "#8A84FF", "#81C1FF"] }
 	];
 
-Create output template:
+Create some output template:
 
 	<div id="example">
 	  <ul>
@@ -76,15 +80,14 @@ Create JavaScript controller code:
 	    return tmp;
 	  });
 	  // output some custom values
-	  tmp = tmp
-	    .replace("{CountColors}", item.colors.length);
+	  tmp = tmp.replace("{CountColors}", item.colors.length);
 	
 	  return tmp;
 	});
 
   	$("#example").html(tmp);
 
-You're done:
+You're done! Here is the result:
 
 ![Alt text](example.png "jsRazor Example Output")
 
