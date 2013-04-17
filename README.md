@@ -1,4 +1,4 @@
-# jsRazor: Cutting-Enge Client Templates
+# jsRazor: Cutting Edge Client-Side Templates
 
 Stupidly simple and unbeatably powerful client-side templating solution. Based on idea that **every possible rendering output can be achieved by only TWO functional primitives**. These primitives are:
 - **repeat** - repeats geheric fragment
