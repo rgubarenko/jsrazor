@@ -1,6 +1,6 @@
 # jsRazor - simpler and more powerful client-side rendering
 
-jsRazor is a cutting edge client-side rendering solution that shaves off all complexity that other frameworks have. It is based on repeat-n-toggle approach that delivers simpler, faster, and more flexible solutions than any MVC, DOM-based, or compiled template can do.
+jsRazor is a cutting edge client-side templating plugin that shaves off all complexity that other (DOM-based, MVC, JS compiled template, etc) frameworks have. It delivers simpler, faster, and much more flexible solution allowing every HTML graphics designer to do expert-level page rendering.
 
 The idea behind jsRazor is simple: every possible output can be achieved as a random combination of only TWO functional primitives: 1) repeat - to repeat the fragment, and 2) toggle - to show/hide the fragment. We don't need anything else to get the desired output.
 

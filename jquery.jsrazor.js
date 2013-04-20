@@ -130,7 +130,7 @@
       }
       catch (ex)
       {
-        throw "jsrazor.repeat() error: " + ex;
+        throw "[jsrazor] repeat() error: " + ex;
       }
     },
 
@@ -169,7 +169,7 @@
       }
       catch (ex)
       {
-        throw "jsrazor.toggle() error: " + ex;
+        throw "[jsrazor] toggle() error: " + ex;
       }
     }
   };
