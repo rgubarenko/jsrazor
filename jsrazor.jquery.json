@@ -1,0 +1,26 @@
+{
+  "name": "jsrazor",
+  "version": "1.0.0",
+  "title":  "jQuery jsRazor",
+  "description": "jsRazor is a cutting edge client-side templating plugin that shaves off all complexity that other (DOM-based, MVC, JS compiled template, etc) frameworks have. It delivers simpler, faster, and much more flexible solution allowing every HTML graphics designer to do expert-level page rendering.",
+  "author": {
+    "name": "Roman Gubarenko",
+    "url": "https://github.com/rgubarenko"
+  },
+  "maintainers": [
+    {
+      "name": "Roman Gubarenko",
+      "url": "https://github.com/rgubarenko"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/rgubarenko/jsrazor/master/MIT-LICENSE.txt"
+    }
+  ],
+  "dependencies": { "jquery": ">=1.0" },
+  "bugs": "https://github.com/rgubarenko/jsrazor/issues",
+  "homepage": "https://github.com/rgubarenko/jsrazor",
+  "docs": "http://www.makeitsoft.com/jsrazor-product/jzrazor-docs/"
+}
