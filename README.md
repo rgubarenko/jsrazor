@@ -17,7 +17,7 @@ All you need to know about jsRazor is here: [http://www.makeitsoft.com/jsrazor/j
 
 ## Installation and Usage
 
-Include library link in the HEAD section of your page:
+Include library link in the HEAD section of your page: 
 
 ``` html
 <script src="/path/to/jquery.jsrazor.js"></script>
