@@ -22,5 +22,5 @@
   "dependencies": { "jquery": ">=1.0" },
   "bugs": "https://github.com/rgubarenko/jsrazor/issues",
   "homepage": "https://github.com/rgubarenko/jsrazor",
-  "docs": "http://www.makeitsoft.com/jsrazor-product/jzrazor-docs/"
+  "docs": "http://www.makeitsoft.com/jsrazor/jzrazor-docs/"
 }
