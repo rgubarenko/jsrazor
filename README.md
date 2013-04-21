@@ -13,7 +13,7 @@ Why jsRazor is good?
 
 ## Documentation
 
-All you need to know about jsRazor is here: [http://www.makeitsoft.com/jsrazor-product/](http://www.makeitsoft.com/jsrazor-product/ "jsRazor Project Site")
+All you need to know about jsRazor is here: [http://www.makeitsoft.com/jsrazor/jzrazor-docs/](jsRazor Documentation "jsRazor Documentation")
 
 ## Installation and Usage
 
